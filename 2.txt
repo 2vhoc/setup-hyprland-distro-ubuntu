@@ -1,0 +1,48 @@
+# /home/vuvanhoc/.config/hypr/UserConfigs/UserKeybinds.conf 
+
+# See also Laptops.conf for laptops keybinds 
+
+# /* ---- ✴️ Variables ✴️ ---- */  #
+$mainMod = SUPER
+$files = thunar
+$term = kitty
+$scriptsDir = $HOME/.config/hypr/scripts
+$UserScripts = $HOME/.config/hypr/UserScripts
+$menu = rofi -show drun
+# common shortcuts
+#bindr = $mainMod, $mainMod_L, exec, pkill rofi || rofi -show drun -modi dr>
+bind = $mainMod, D, exec, pkill rofi || true && rofi -show drun -modi drun,>
+#bind = $mainMod, B, exec, xdg-open "http:// &"  # default browser
+bind = $mainMod, A, exec, pkill rofi || true && ags -t 'overview' # desktop>
+bind = CTRL ALT, T, exec, $term  #terminal
+bind = $mainMod, F, exec, $files #file manager
+#bind = $mainMod, A, exec, rofi -show drun -width 50 -height 60
+
+# FEATURES / EXTRAS
+bind = $mainMod, H, exec, $scriptsDir/KeyHints.sh # help / cheat sheet
+bind = $mainMod ALT, R, exec, $scriptsDir/Refresh.sh # Refresh waybar, sway>
+bind = $mainMod ALT, E, exec, $scriptsDir/RofiEmoji.sh # emoji menu
+bind = $mainMod, S, exec, $scriptsDir/RofiSearch.sh # Google search using r>
+bind = $mainMod ALT, O, exec, $scriptsDir/ChangeBlur.sh # Toggle blur setti>
+bind = $mainMod SHIFT, G, exec, $scriptsDir/GameMode.sh # Toggle animations>
+bind = $mainMod ALT, L, exec, $scriptsDir/ChangeLayout.sh # Toggle Master o>
+bind = $mainMod ALT, V, exec, $scriptsDir/ClipManager.sh # Clipboard Manager
+bind = $mainMod CTRL, R, exec, $scriptsDir/RofiThemeSelector.sh # KooL Rofi>
+bind = $mainMod CTRL SHIFT, R, exec, pkill rofi || true && $scriptsDir/Rofi>
+
+bind = $mainMod SHIFT, F, fullscreen # whole full screen
+bind = $mainMod CTRL, F, fullscreen, 1 # fake full screen
+bind = $mainMod, SPACE, togglefloating, #Float Mode
+bind = $mainMod ALT, SPACE, exec, hyprctl dispatch workspaceopt allfloat #A>
+
+# Waybar / Bar related
+bind = $mainMod CTRL ALT, B, exec, pkill -SIGUSR1 waybar # Toggle hide/show>
+bind = $mainMod CTRL, B, exec, $scriptsDir/WaybarStyles.sh # Waybar Styles >
+bind = $mainMod ALT, B, exec, $scriptsDir/WaybarLayout.sh # Waybar Layout M>
+
+# FEATURES / EXTRAS (UserScripts)
+
+^G Help        ^O Write Out   ^W Where Is    ^K Cut         ^T Execute
+^X Exit        ^R Read File   ^\ Replace     ^U Paste       ^J Justify
+
+

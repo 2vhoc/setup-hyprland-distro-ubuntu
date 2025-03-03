@@ -1,0 +1,195 @@
+#/home/vuvanhoc/.config/rofi/themes/KooL_style-9.rasi  
+
+
+
+
+   73  cd ~/asusctl\nmake\nsudo make install
+   74  ls
+   75  cd asusctl
+   76  make
+   77  cd ..
+   78  make
+   79  cd ..
+   80  cd ~/asusctl
+   81  ls
+   82  make
+   83  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   84  make
+   85  source $HOME/.cargo/env
+   86  rustc --version\ncargo --version
+   87  make
+   88  nano ~/.cargo/config.toml
+   89  cd ~/asusctl\nmake
+   90  ping github.com -c 10
+   91  cd ~/asusctl\nmake
+   92  cd ~/asusctl/rog-control-center\nnano Cargo.toml
+   93  cd ~\ngit clone https://github.com/slint-ui/slint.git\ncd slint\ngit checkout 2fb62ca0e8f1ce0df6ac2b0e0d81baffb93b47eb
+   94  cd ~\ngit clone https://github.com/slint-ui/slint.git\ncd slint\ngit checkout 2fb62ca0e8f1ce0df6ac2b0e0d81baffb93b47eblear
+   95  clear
+   96  sudo nano /etc/tlp.conf
+   97  sudo apt update\nsudo apt install tlp tlp-rdw
+   98  sudo nano /etc/tlp.conf
+   99  sudo systemctl restart tlp\nsudo tlp start
+  100  upower -i /org/freedesktop/UPower/devices/battery_BAT1
+  101  sudo nano /etc/rc.local
+  102  sudo nano /etc/tlp.conf
+  103  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  104  sudo nano /etc/tlp.conf
+  105  sudo systemctl restart tlp\nsudo tlp start
+  106  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  107  ^[[200~sudo systemctl enable tlp
+  108  sudo systemctl start tlp~sudo systemctl enable tlp\nsudo systemctl start tlp
+  109  sudo systemctl enable tlp\nsudo systemctl start tlp
+  110  exit
+  111  sudo nano /etc/tlp.conf
+  112  sudo systemctl enable tlp\nsudo systemctl start tlp
+  113  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  114  sudo nano /etc/tlp.conf
+  115  sudo systemctl enable tlp\nsudo systemctl start tlp
+  116  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  117  sudo systemctl restart tlp\nsudo tlp start
+  118  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  119  sudo systemctl enable tlp\nsudo systemctl start tlp
+  120  exit
+  121  top
+  122  clear
+  123  exit
+  124  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  125  clear
+  126  exit
+  127  sudo nano /etc/systemd/logind.conf
+  128  sudo systemctl restart systemd-logind
+  129  exit
+  130  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  131  sudo nano /etc/tlp.conf
+  132  sudo systemctl restart tlp\n
+  133  tlp-stat -p\n
+  134  clear
+  135  sudo systemctl restart tlp\n
+  136  sudo nano /etc/tlp.conf
+  137  sudo systemctl restart tlp\n
+  138  tlp-stat -p\n
+  139  sensors\n
+  140  sudo tlp-stat -p\n
+  141  sudo systemctl status tlp\n
+  142  sudo systemctl restart tlp\n
+  143  clear
+  144  sudo apt update\nsudo apt install power-profiles-daemon -y\n
+  145  systemctl status power-profiles-daemon\n
+  146  sudo powerprofilesctl set performance\n
+  147  sudo systemctl enable --now power-profiles-daemon\n
+  148  sudo nano /etc/tlp.conf
+  149  sudo systemctl restart tlp\n
+  150  sudo nano /etc/tlp.conf
+  151  sudo systemctl restart tlp\n
+  152  sudo reboot now
+  153  clear
+  154  nano /home/vuvanhoc/.config/hypr/UserConfigs/UserKeybinds.conf
+  155  ps -p $$ -o comm=
+  156  echo $TERMINAL
+  157  grep -r "terminal" ~/.config/hypr/
+  158  clear
+  159  nano /home/vuvanhoc/.config/hypr/UserConfigs/UserKeybinds.conf
+  160  exit
+  161  nano /home/vuvanhoc/.config/hypr/UserConfigs/UserKeybinds.conf
+  162  exit
+  163  powerprofilesctl get\n
+  164  powerprofilesctl list\n
+  165  nano ~/.config/rofi/config.rasi
+  166  nano /home/vuvanhoc/.config/hypr/UserConfigs/UserKeybinds.conf
+  167  clear
+  168  exit
+  169  nano ~/.config/hypr/scripts/RofiSearch.sh
+  170  nano ~/.config/rofi/config.rasi
+  171  nano /home/vuvanhoc/.config/hypr/UserConfigs/UserKeybinds.conf
+  172  exit
+  173  /sys/class/power_supply/BAT0/charge_control_end_threshold\n
+  174  /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  175  echo 80 | sudo tee /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  176  /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  177  cat /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  178  echo 80 | sudo tee /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  179  cat /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  180  sudo nano /etc/systemd/system/battery-limit.service\n
+  181  sudo systemctl daemon-reload\nsudo systemctl enable battery-limit.service\nsudo systemctl start battery-limit.service\n
+  182  cat /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  183  exit
+  184  cat /sys/class/power_supply/BAT1/charge_control_end_threshold\n
+  185  powerprofilesctl get\n
+  186  exit\n
+  187  EXIT
+  188  exit
+  189  nano ~/.config/rofi/config.rasi\n
+
+ Sun  2 Mar - 20:46  ~ 
+ @vuvanhoc  rofi -show drun           
+
+
+ Sun  2 Mar - 20:46  ~ 
+ @vuvanhoc  hyprctl reload
+
+ok
+
+ Sun  2 Mar - 20:46  ~ 
+ @vuvanhoc  journalctl -xe | grep rofi
+
+
+ ✘  Sun  2 Mar - 20:46  ~ 
+ @vuvanhoc  rofi -show drun -no-config
+
+
+ Sun  2 Mar - 20:47  ~ 
+ @vuvanhoc  rofi -show drun -theme default
+
+
+
+ Sun  2 Mar - 20:52  ~ 
+ @vuvanhoc  rofi -show drun
+
+        /home/vuvanhoc/.config/rofi/themes/KooL_style-9.rasi                
+    text-color:                     @FG;
+    border-radius:                  9px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @BGA;
+    text-color:                     @FG;
+}
+
+element-text selected,
+element selected {
+    background-color:               @BGA;
+    text-color:                     @SEL;
+    border:                         0px 0px 0px 0px;
+    border-radius:                  10px;
+    border-color:                   @BDR;
+}
+
+element selected.urgent {
+    background-color:               @UGT;
+    text-color:                     @FG;
+}
+
+element selected.active {
+    background-color:               @BGA;
+    color:                          @FG;
+}
+
+/*****----- Message -----*****/
+message {
+    background-color:                   transparent;
+    border:                             0px;
+}
+error-message {
+    padding:                        20px;
+}
+textbox {
+    padding:                        10px;
+    border-radius:                  10px;
+        background-color:               @BDR;
+    text-color:                     @SEL;
+    vertical-align:                 0.5;
+    horizontal-align:               0.5;
+}
+
